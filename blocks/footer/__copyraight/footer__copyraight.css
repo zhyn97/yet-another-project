@@ -1,0 +1,12 @@
+.footer__copyraight {
+    margin: 0;
+    font-size: 14px;
+    line-height: 114%;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyraight {
+       margin: 48px 0 0 0;;
+       line-height: 100%;
+    }
+  }
