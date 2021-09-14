@@ -1,0 +1,24 @@
+.header__link_label_ru {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 18px 18px 6px 0;
+  }
+  .header__link_label_ru:after {
+    content: 'Ru';
+    font-size: 24px;
+    line-height: 117%;
+    position: relative;
+  }
+
+  .header__link_input_ru:checked ~ .header__link_label_ru:after {
+    content: 'Ru';
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 767px) {
+    .header__link_label_ru:after {
+      font-size: 18px;
+      line-height: 111%;
+    }
+}
