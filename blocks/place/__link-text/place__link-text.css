@@ -1,4 +1,4 @@
-.place__link_underline {
+.place__link-text {
     border-bottom: 2px solid currentColor;
     display: inline-block;
     line-height: 1;
