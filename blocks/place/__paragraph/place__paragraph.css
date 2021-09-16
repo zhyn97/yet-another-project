@@ -6,8 +6,8 @@
     margin: 0;
 }
 
-.place__paragraph:first-of-type {
-    margin-bottom: 26px;
+.place__paragraph:nth-child(2n) {
+  margin: 25px 0 0 0;
 }
 
 @media screen and (max-width: 1023px) {
@@ -20,5 +20,9 @@
     .place__paragraph {
       min-width: 288px;
       margin: 0 16px;
+    }
+
+    .place__paragraph:nth-child(2n) {
+      margin: 25px 16px 0 16px;
     }
   }

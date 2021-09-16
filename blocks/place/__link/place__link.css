@@ -6,4 +6,6 @@
     line-height: 122%;
     color: white;
     text-decoration: none;
+    border-bottom: 2px solid currentColor;
+    max-width: fit-content;
 }

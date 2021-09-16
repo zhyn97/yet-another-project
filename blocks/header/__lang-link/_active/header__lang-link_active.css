@@ -1,4 +1,4 @@
-.place__link-text {
+.header__lang-link_active {
     border-bottom: 2px solid currentColor;
     display: inline-block;
     line-height: 1;
