@@ -4,6 +4,8 @@
     line-height: 117%;
     color: white;
     margin: 18px 18px 6px 0;
+    display: inline-block;
+    line-height: 1;
 }
 
 .header__lang-link:last-of-type {
